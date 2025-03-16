@@ -15,7 +15,7 @@ source:
       - Makefile.patch
 
 build:
-  number: 0
+  number: 1
   skip: not linux
 
 requirements:
@@ -49,7 +49,7 @@ requirements:
     - zlib
   run:
     - python
-  
+
 tests:
   - script:
       - set -xe
@@ -132,9 +132,7 @@ tests:
 about:
   homepage: https://github.com/afni/afni
   summary: A suite of programs for looking at and analyzing MRI brain images.
-  description: AFNI (Analysis of Functional NeuroImages) is a suite of programs for 
-    looking at and analyzing MRI brain images at all stages of analysis (planning, 
-    setting up acquisition, preprocessing, analysis, quality control and statistical analysis).
+  description: AFNI (Analysis of Functional NeuroImages) is a suite of programs for looking at and analyzing MRI brain images at all stages of analysis (planning, setting up acquisition, preprocessing, analysis, quality control and statistical analysis).
   license: NIST-PD
   license_file: LICENSE.txt
   repository: https://github.com/afni/afni
